@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Restaurants Adviser</string>
+    <string name="change_city">Change city</string>
+
+    <string name="open_weather_maps_app_id">5ac967204a620606510da9f3fe219271</string>
+    <string name="wanna_know_restaurants">Interested in nearby restaurants?</string>
+    <string name="compass">Restaurants Adviser</string>
+    <string name="restaurant_button">Restaurant button</string>
+    <string name="enter_city">Enter city name</string>
+    <string name="city">City</string>
+    <string name="search_button_food">Check Restaurants</string>
+    <string name="city_name">City name</string>
+    <string name="last_update_example">Last update: Jul 2, 2014 3:30:00 AM</string>
+    <string name="temperature_text">2.00 °C</string>
+    <string name="fog_hum_pre_text">FOG\n\nHumidity:100%\nPressure: 1029 hPa</string>
+    <string name="enter_another_city">Enter another city</string>
+    <string name="home_button">Home button</string>
+    <string name="search_another_restaurant">Search restaurants for another city</string>
+    <string name="city_or_restaurant">City or Restaurant name</string>
+    <string name="enter_city_or_restaurant">Enter city or restaurant name</string>
+    <string name="type_here">Type here…</string>
+    <string name="check_restaurants">Check Restaurants</string>
+    <string name="rating">Rating</string>
+    <string name="rest_address">Rest address</string>
+    <string name="rest_name">Rest name</string>
+    <string name="restaurants_in">Restaurants in</string>
+</resources>

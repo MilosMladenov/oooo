@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popup_id"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_bg"
+    android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/rel_lay"
+            android:layout_width="match_parent"
+            android:layout_height="222dp"
+            android:background="@drawable/shape"
+            >
+
+
+            <Button
+                android:id="@+id/closeButtonFood"
+                android:layout_gravity="end"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="0dp"
+                android:background="@android:drawable/ic_delete" />
+
+            <TextView
+                android:id="@+id/popup_food_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/enter_city_or_restaurant"
+                android:fontFamily="@font/actor"
+                android:textColor="@android:color/black"
+                android:paddingBottom="10dp"
+                android:textSize="18sp"
+ />
+
+            <EditText
+                android:id="@+id/popup_food_editText"
+                android:layout_width="270dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/edit_text_shape"
+                android:drawableStart="@drawable/city_icon"
+                android:drawablePadding="6dp"
+                android:ems="10"
+                android:fontFamily="sans-serif-thin"
+                android:hint="@string/type_here"
+                android:importantForAutofill="no"
+                android:inputType="textVisiblePassword|textNoSuggestions"
+                android:textColor="#000000"
+                android:textColorHint="@android:color/darker_gray"
+                android:textSize="21sp"
+                android:textStyle="normal|bold" />
+
+            <Button
+                android:id="@+id/popup_food_button"
+                android:layout_width="270dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_shape"
+                android:fontFamily="@font/lato_bold"
+                android:text="@string/search_button_food"
+                android:textAllCaps="false"
+                android:textSize="14sp" />
+
+
+
+        </LinearLayout>
+
+
+</RelativeLayout>
